@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Georgia, Serif;
+    font-family: Verdana, "Bitstream Vera Sans", "DejaVu Sans", Tahoma, Geneva, Arial, Sans-serif;;
 }
 
 #wrapper {
@@ -32,13 +32,6 @@ dd {
 a {
     color: #0645AD;
     text-decoration: none;
-    background: url("../img/Icon_External_Link.png") no-repeat scroll right top transparent;
-    padding-right: 12px;
-}
-
-a.internal {
-    background: none;
-    padding-right: 0;
 }
 
 a:hover {
@@ -58,6 +51,6 @@ a:visited {
     font-weight: bold;
 }
 
-.time {
+.time_range {
     float: right;
 }
