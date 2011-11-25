@@ -7,7 +7,7 @@ function displayLastUpdateTime() {
     }
 
     xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status==200) {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
             var resp = eval ("(" + xmlhttp.responseText + ")");
             var last_update_time = new Date(resp[0]['commit']['committer']['date']);
             document.getElementById('last_update_time').innerHTML = last_update_time.toLocaleDateString();
@@ -18,6 +18,7 @@ function displayLastUpdateTime() {
 }
 
 
+// Google Analytics
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-27264995-1']);
 _gaq.push(['_trackPageview']);
@@ -40,5 +41,5 @@ function Caesar_decrypt(cipher) {
 function displayEmailAddress() {
     var ciphertext = 'er1}kxCxzdwhuorr1fd';
     var plaintext = Caesar_decrypt(ciphertext);
-    document.getElementById('email_address').innerHTML = '<a rel="nofollow" href="mailto:bo.zhu@uwaterloo.ca">' + plaintext + '</a>';
+    document.getElementById('email_address').innerHTML = '<a rel="nofollow" href="mailto:' + plaintext + '">' + plaintext + '</a>';
 }
