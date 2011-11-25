@@ -1,5 +1,22 @@
 function displayLastUpdateTime() {
+    var xmlhttp;
+    if (window.XMLHttpRequest) {
+        xmlhttp=new XMLHttpRequest();
+    } else {
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+    xmlhttp.onreadystatechange = function() {
+        if (xmlhttp.readyState == 4 && xmlhttp.status==200) {
+            var resp = eval ("(" + xmlhttp.responseText + ")");
+            var last_update_time = new Date(resp[0]['commit']['committer']['date']);
+            document.getElementById('last_update_time').innerHTML = last_update_time.toLocaleDateString();
+        }
+    };
+    xmlhttp.open("GET", "https://api.github.com/repos/bozhu/bozhu.github.com/commits", true);
+    xmlhttp.send();
 }
+
 
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-27264995-1']);
@@ -11,10 +28,12 @@ _gaq.push(['_trackPageview']);
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
+
 function Caesar_decrypt(cipher) {
     plain = "";
-    for (var i = 0; i < cipher.length; i++)
+    for (var i = 0; i < cipher.length; i++) {
         plain += String.fromCharCode(cipher.charCodeAt(i) - 3);
+    }
     return plain;
 }
 
