@@ -13,11 +13,8 @@ _gaq.push(['_trackPageview']);
 
 function Caesar_decrypt(cipher) {
     plain = "";
-
-    for (var i = 0; i < cipher.length; i++) {
+    for (var i = 0; i < cipher.length; i++)
         plain += String.fromCharCode(cipher.charCodeAt(i) - 3);
-    }
-
     return plain;
 }
 
