@@ -29,6 +29,10 @@ dd {
     clear: both;
 }
 
+ul {
+    margin-top: 0;
+}
+
 a {
     color: #0645AD;
     text-decoration: none;
