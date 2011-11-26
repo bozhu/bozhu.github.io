@@ -1,20 +1,34 @@
 function displayLastUpdateTime() {
-    var xmlhttp;
-    if (window.XMLHttpRequest) {
-        xmlhttp = new XMLHttpRequest();
-    } else {
-        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-    }
-
-    xmlhttp.onreadystatechange = function() {
-        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-            var resp = eval ("(" + xmlhttp.responseText + ")");
-            var last_update_time = new Date(resp[0]['commit']['committer']['date']);
-            document.getElementById('last_update_time').innerHTML = last_update_time.toLocaleDateString();
+    if (window.XDomainRequest) {
+        var xdhttp = new XDomainRequest();
+        xdhttp.onload = function() {
+            alert(xdhttp.responseText);
         }
-    };
-    xmlhttp.open("GET", "https://api.github.com/repos/bozhu/bozhu.github.com/commits", true);
-    xmlhttp.send();
+
+        xdhttp.onerror = function() {alert("error");}
+        xdhttp.ontimeout = function() {alert("timeout");}
+        xdhttp.onprogress = function() {alert("progress");}
+
+        xdhttp.open("GET", "http://github.com/api/v2/json/repos/show/bozhu/bozhu.github.com");
+        xdhttp.send();
+    } else {
+        var xmlhttp;
+        if (window.XMLHttpRequest) {
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                var resp = eval ("(" + xmlhttp.responseText + ")");
+                var last_update_time = new Date(resp.updated_at);
+                document.getElementById('last_update_time').innerHTML = last_update_time.toLocaleDateString();
+            }
+        }
+        xmlhttp.open("GET", "https://api.github.com/repos/bozhu/bozhu.github.com", true);
+        xmlhttp.send();
+    }
 }
 
 
