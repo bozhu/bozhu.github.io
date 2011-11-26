@@ -11,11 +11,11 @@ h1, h2 {
     font-family: Georgia, Serif;
 }
 
-header, footer {
+#header, #footer {
     text-align: center;
 }
 
-footer {
+#footer {
     margin-top: 2em;
     font-size: 0.75em;
 }
