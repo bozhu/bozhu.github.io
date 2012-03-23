@@ -59,9 +59,3 @@ a:visited {
 .time_range {
     float: right;
 }
-
-#corner {
-    position: fixed;
-    right: 1em;
-    bottom: 1em;
-}
