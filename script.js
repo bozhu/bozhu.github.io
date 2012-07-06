@@ -25,5 +25,5 @@ function Caesar_decrypt(cipher) {
 function display_email_address() {
     var ciphertext = 'er1}kxCxzdwhuorr1fd';
     var plaintext = Caesar_decrypt(ciphertext);
-    document.getElementById('email_address').innerHTML = '<a rel="nofollow" href="mailto:' + plaintext + '">' + plaintext + '</a>';
+    document.getElementById('email_address').innerHTML = '<a target="_blank" href="mailto:' + plaintext + '">' + plaintext + '</a>';
 }
