@@ -14,8 +14,7 @@ function display_last_update_time(resp) {
 
 
 function Caesar_decrypt(cipher) {
-    var plain = "";
-    var i;
+    var i, plain = "";
     for (i = 0; i < cipher.length; i++) {
         plain += String.fromCharCode(cipher.charCodeAt(i) - 3);
     }
