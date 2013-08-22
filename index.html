@@ -2,41 +2,40 @@
 <html lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <title>Bo Zhu - PhD Student - University of Waterloo</title>
-        <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootswatch/2.1.1/united/bootstrap.min.css" />
+        <title>Bo Zhu - PhD Candidate - University of Waterloo</title>
+        <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootswatch/3.0.0/united/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="style.css" />
         <meta name="description" content="Bo Zhu's Academic Homepage" />
         <meta name="keywords" content="Bo Zhu, Cryptanalysis, Cryptography" />
         <meta name="google-site-verification" content="IRlUmlOZ5Y2x-hMdBppOHYFtl1m5P5nLJ0OwBxlIAms" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div class="container">
-            <div class="pagination-centered">
+        <div class="container" id="wrapper">
+            <div class="text-center">
                 <h1>Bo Zhu</h1>
-                <span id="email_address"><a onClick="display_email_address()">Click here to show email address.</a></span><br>
-                PhD Student at University of Waterloo.<br>
-                Interested in Cryptanalysis of Symmetric Ciphers.
-            </div>
-
-            <h2>Publications</h2>
-            <div class="pagination-centered">
-                Please visit <a href="http://scholar.google.com/citations?user=RPz2gaMAAAAJ">my Google Scholar Citation page</a> for the publication list.
+                <span id="email_address"><a onClick="display_email_address()">Click here to show my email address.</a></span><br>
+                PhD candidate at University of Waterloo.<br>
+                Interested in analysis and design of ciphers.
             </div>
 
             <h2>Experience</h2>
-            <div>
+            <div id="expr">
                 <dl>
                     <dt><a href="http://uwaterloo.ca">University of Waterloo</a><span class="pull-right">Sep. 2010 - Present</span></dt>
                     <dd>PhD candidate, under supervision of <a href="http://ece.uwaterloo.ca/People/faculty/gong.html">Prof. Guang Gong</a></dd>
                     <dd><a href="http://comsec.uwaterloo.ca">Communications Security Lab</a> at <a href="http://ece.uwaterloo.ca/Home/">Dept. Electrical and Computer Engineering</a></dd>
-                    <dd>Teaching Assistants<ul>
-                        <li>ECE 124, Digital Circuits &amp; Systems, Winter 2011</li>
-                        <li>ECE 354, Real-Time Operating Systems, Spring 2011</li>
-                        <li>ECE 254, Operating Systems, Fall 2012</li>
-                        <li>SE 350, Operating Systems, Winter 2013</li>
-                    </ul></dd>
+
                     <dd>At-Large Council of <a href="http://www.gsa.uwaterloo.ca/">Graduate Student Association</a>, 2011</dd>
                     <dd>Technical support for <a href="http://wiki.uwcssa.com/index.php/About_UWCSSA">Chinese Students and Scholars Association</a>, 2010 - 2012</dd>
+                    <dd>Teaching Assistants: <a data-toggle="collapse" data-target="#ta_list">Digital Circuits and Operating Systems</a>
+                        <ul id="ta_list" class="collapse">
+                            <li>ECE 124, Digital Circuits &amp; Systems, Winter 2011</li>
+                            <li>ECE 354, Real-Time Operating Systems, Spring 2011</li>
+                            <li>ECE 254, Operating Systems, Fall 2012</li>
+                            <li>SE 350, Operating Systems, Winter 2013</li>
+                        </ul>
+                    </dd>
 
                     <dt><a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a><span class="pull-right">Sep. 2007 - May 2010</span></dt>
                     <dd>MSci, under supervision of <a href="http://cis.sjtu.edu.cn/index.php/Kefei_Chen">Prof. Kefei Chen</a> and <a href="http://cis.sjtu.edu.cn/index.php/Xuejia_Lai">Prof. Xuejia Lai</a></dd>
@@ -48,10 +47,45 @@
                 </dl>
             </div>
 
+
+            <h2>Selected Publications</h2>
+            <div id="pub">
+                <dl>
+                    <dt>Revisiting MAC Forgeries, Weak Keys and Provable Security of Galois/Counter Mode of Operation</dt>
+                    <dd><em>Bo Zhu</em>, Yin Tan, and Guang Gong. To appear at CANS 2013.</dd>
+
+                    <dt>Revisiting Counter Mode to Repair Galois/Counter Mode, and <em>Simeck: An Authenticated Cipher Design</em></dt>
+                    <dd><em>Bo Zhu</em>, Yin Tan, and Guang Gong. <em>Talk</em> at DIAC 2013. <a href="slides/simeck.pdf">[Slides]</a>
+
+                    <dt>Loxin -- A Solution to Password-less Universal Login</dt>
+                    <dd><em>Bo Zhu</em>, Xinxin Fan, and Guang Gong. In manuscript. <a href="paper/loxin.pdf">[PDF]</a></dd>
+
+                    <dt>Multidimensional Meet-in-the-Middle Attack and Its Applications to KATAN32/48/64</dt>
+                    <dd><em>Bo Zhu</em> and Guang Gong. Cryptology ePrint Archive, Report 2011/619. Updated in 2013. <a href="http://eprint.iacr.org/2011/619.pdf">[PDF]</a></dd>
+
+                    <dt>Another View on Cube Attack, Cube Tester, AIDA and Higher Order Differential Cryptanalysis</dt>
+                    <dd><em>Bo Zhu</em>, Guang Gong, Xuejia Lai, and Keifei Chen. CACR Technical Report 2012-01. <a href="http://cacr.uwaterloo.ca/techreports/2012/cacr2012-01.pdf">[PDF]</a></dd>
+
+                    <dt>A Practical Platform for Cube-Attack-like Cryptanalyses</dt>
+                    <dd><em>Bo Zhu</em>, Wenye Yu, and Tao Wang. Cryptology ePrint Archive, Report 2010/644. <a href="http://eprint.iacr.org/2010/644.pdf">[PDF]</a></dd>
+
+                    <dt>Bitwise Higher Order Differential Cryptanalysis</dt>
+                    <dd><em>Bo Zhu</em>, Kefei Chen, and Xuejia Lai. INTRUST 2009. LNCS 6163. pp 250-262. <a href="http://dx.doi.org/10.1007/978-3-642-14597-1_16">[DOI]</a></dd>
+
+                    <dt>Improved Cryptanalysis of the FOX Block Cipher</dt>
+                    <dd>Zhongming Wu, Yiyuan Luo, Xuejia Lai, and <em>Bo Zhu</em>. INTRUST 2009. LNCS 6163. pp 236-249. <a href="http://dx.doi.org/10.1007/978-3-642-14597-1_15">[DOI]</a></dd>
+
+                    <dt>Towards Secure and Practical MACs for Body Sensor Networks</dt>
+                    <dd>Zheng Gong, Pieter Hartel, Svetla Nikova, and <em>Bo Zhu</em>. INDOCRYPT 2009. LNCS 5922. pp 182-198. <a href="http://dx.doi.org/10.1007/978-3-642-10628-6_13">[DOI]</a></dd>
+
+                    <dt>How to Break LU Matrix Based Key Predistribution Schemes for Wireless Sensor Networks</dt>
+                    <dd><em>Bo Zhu</em>, Yanfei Zheng, Yaowei Zhou, and Kefei Chen. IEEE MASS 2009. pp 237-245. <a href="10.1109/MOBHOC.2009.5336993">[DOI]</a></dd>
+                </dl>
+            </div>
+
             <h2>Miscellaneous</h2>
             <div>
                 <ul>
-                    <li><a href="http://about.bozhu.me/paper/loxin.pdf">Loxin: A password-free login system</a>.</li>
                     <li>Python implementations of many cryptographic algorithms:<br>
                         <ul><li>
                             <a href="https://github.com/bozhu/AES-Python">AES</a>,
@@ -61,7 +95,7 @@
                             <a href="https://github.com/bozhu/RC4-Python">RC4</a>,
                             <a href="https://github.com/bozhu/KASUMI-Python">KASUMI</a>,
                             <a href="https://github.com/bozhu/GOST-Python">GOST</a>,
-                            <a href="https://github.com/bozhu/KTANTAN-Python">KTANTAN</a> and
+                            <a href="https://github.com/bozhu/KATAN-Python">KATAN</a>/<a href="https://github.com/bozhu/KTANTAN-Python">KTANTAN</a> and
                             <a href="https://github.com/bozhu/PRINTcipher-Python">PRINTcipher</a>.
                         </li></ul>
                     </li>
@@ -76,11 +110,13 @@
                 </ul>
             </div>
 
-            <div class="muted pagination-centered">
+            <div class="text-muted text-center">
                 <small>Last Update: <span id="last_update_time">...</span></small>
             </div>
         </div>
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="script.js"></script>
      </body>
 </html>

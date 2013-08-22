@@ -1,14 +1,25 @@
-body {
-    font-size: 1em;
+#wrapper {
+    max-width: 768px;
 }
 
-dt {
-    font-size: 1.1em;
+h2 {
+    font-size: 180%;
+
+}
+
+div#expr dt {
+    font-size: 110%;
     font-weight: normal;
     margin-top: 1em;
 }
 
+div#pub dt {
+    font-size: 105%;
+    font-weight: normal;
+    margin-top: 0.65em;
+}
+
 dd {
-    margin-top: 2px;
-    margin-left: 1em;
+    margin-top: 0.1em;
+    margin-left: 1.6em;
 }
