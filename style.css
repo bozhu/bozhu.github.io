@@ -1,20 +1,23 @@
 #wrapper {
     max-width: 768px;
+    font-size: 110%;
 }
 
 h2 {
     font-size: 180%;
-
+    /*margin-left: -1em;*/
 }
 
 div#expr dt {
-    font-size: 110%;
     font-weight: normal;
     margin-top: 1em;
 }
 
-div#pub dt {
+span.univ {
     font-size: 105%;
+}
+
+div#pub dt {
     font-weight: normal;
     margin-top: 0.65em;
 }
