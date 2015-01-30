@@ -8,18 +8,23 @@ h2 {
     /*margin-left: -1em;*/
 }
 
-div#expr dt {
+div#education dt {
     font-weight: normal;
     margin-top: 1em;
 }
 
-span.univ {
-    font-size: 105%;
+div#employment dt {
+    font-weight: normal;
+    margin-top: 1em;
 }
 
-div#pub dt {
+div#publication dt {
     font-weight: normal;
     margin-top: 0.65em;
+}
+
+span.entries {
+    font-size: 105%;
 }
 
 dd {
