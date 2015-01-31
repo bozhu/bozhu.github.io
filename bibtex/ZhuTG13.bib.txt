@@ -1,0 +1,22 @@
+@inproceedings{DBLP:conf/cans/ZhuTG13,
+  author    = {Bo Zhu and
+               Yin Tan and
+               Guang Gong},
+  editor    = {Michel Abdalla and
+               Cristina Nita{-}Rotaru and
+               Ricardo Dahab},
+  title     = {Revisiting {MAC} Forgeries, Weak Keys and Provable Security of Galois/Counter
+               Mode of Operation},
+  booktitle = {Cryptology and Network Security - 12th International Conference, {CANS}
+               2013, Paraty, Brazil, November 20-22. 2013. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8257},
+  pages     = {20--38},
+  publisher = {Springer},
+  year      = {2013},
+  url       = {http://dx.doi.org/10.1007/978-3-319-02937-5_2},
+  doi       = {10.1007/978-3-319-02937-5_2},
+  timestamp = {Tue, 26 Nov 2013 14:54:20 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/cans/ZhuTG13},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}

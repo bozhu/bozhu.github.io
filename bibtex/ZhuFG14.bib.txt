@@ -1,0 +1,16 @@
+@inproceedings{DBLP:conf/infocom/ZhuFG14,
+  author    = {Bo Zhu and
+               Xinxin Fan and
+               Guang Gong},
+  title     = {Loxin - {A} solution to password-less universal login},
+  booktitle = {2014 Proceedings {IEEE} {INFOCOM} Workshops, Toronto, ON, Canada,
+               April 27 - May 2, 2014},
+  pages     = {488--493},
+  publisher = {{IEEE}},
+  year      = {2014},
+  url       = {http://dx.doi.org/10.1109/INFCOMW.2014.6849280},
+  doi       = {10.1109/INFCOMW.2014.6849280},
+  timestamp = {Mon, 26 Jan 2015 16:54:55 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/infocom/ZhuFG14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}

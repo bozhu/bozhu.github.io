@@ -1,0 +1,19 @@
+@article{DBLP:journals/jcst/GongHNTZ14,
+  author    = {Zheng Gong and
+               Pieter H. Hartel and
+               Svetla Nikova and
+               Shaohua Tang and
+               Bo Zhu},
+  title     = {{TuLP}: {A} Family of Lightweight Message Authentication Codes for Body
+               Sensor Networks},
+  journal   = {J. Comput. Sci. Technol.},
+  volume    = {29},
+  number    = {1},
+  pages     = {53--68},
+  year      = {2014},
+  url       = {http://dx.doi.org/10.1007/s11390-013-1411-8},
+  doi       = {10.1007/s11390-013-1411-8},
+  timestamp = {Wed, 19 Mar 2014 08:04:12 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/jcst/GongHNTZ14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}

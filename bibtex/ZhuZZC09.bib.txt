@@ -1,0 +1,18 @@
+@inproceedings{DBLP:conf/mass/ZhuZZC09,
+  author    = {Bo Zhu and
+               Yanfei Zheng and
+               Yaowei Zhou and
+               Kefei Chen},
+  title     = {How to Break {LU} Matrix Based Key Predistribution Schemes for Wireless
+               Sensor Networks},
+  booktitle = {{IEEE} 6th International Conference on Mobile Adhoc and Sensor Systems,
+               {MASS} 2009, 12-15 October 2009, Macau (S.A.R.), China},
+  pages     = {237--245},
+  publisher = {{IEEE}},
+  year      = {2009},
+  url       = {http://dx.doi.org/10.1109/MOBHOC.2009.5336993},
+  doi       = {10.1109/MOBHOC.2009.5336993},
+  timestamp = {Mon, 28 Mar 2011 15:30:22 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/mass/ZhuZZC09},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
