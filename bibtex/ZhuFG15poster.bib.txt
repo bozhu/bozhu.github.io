@@ -1,0 +1,6 @@
+@misc{ZhuFG15poster,
+    author = {Bo Zhu and Xinxin Fan and Guang Gong},
+    title = {Pleco and {Plectron} -- {Two} Provably Secure Password Hashing Algorithms (Poster)},
+    howpublished = {To appear at the 5th ACM Conference on Data and Application Security and Privacy (CODASPY 2015)},
+    year = {2015},
+}
