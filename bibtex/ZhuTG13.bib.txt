@@ -5,7 +5,7 @@
   editor    = {Michel Abdalla and
                Cristina Nita{-}Rotaru and
                Ricardo Dahab},
-  title     = {Revisiting {MAC} Forgeries, Weak Keys and Provable Security of Galois/Counter
+  title     = {Revisiting {MAC} Forgeries, Weak Keys and Provable Security of {Galois}/Counter
                Mode of Operation},
   booktitle = {Cryptology and Network Security - 12th International Conference, {CANS}
                2013, Paraty, Brazil, November 20-22. 2013. Proceedings},

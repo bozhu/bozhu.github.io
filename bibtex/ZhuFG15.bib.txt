@@ -1,0 +1,7 @@
+@misc{ZhuFG15,
+    author = {Bo Zhu and Xinxin Fan and Guang Gong},
+    title = {Pleco and {Plectron} -- {Two} Provably Secure Password Hashing Algorithms},
+    howpublished = {Cryptology ePrint Archive, Report 2014/655},
+    year = {2014},
+    note = {\url{http://eprint.iacr.org/}},
+}
