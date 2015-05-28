@@ -1,5 +1,5 @@
 @misc{TanGZ15,
     author = {Yin Tan and Guang Gong and Bo Zhu},
     title = {Enhanced Criteria on Differential Uniformity and Nonlinearity of Cryptographic Significant Functions},
-    howpublished = {\url{http://comsec.uwaterloo.ca/~y24tan/pdf/tKdiff.pdf}}
+    howpublished = {To appear at the Journal of Cryptography and Communications -- Discrete Structures, Boolean Functions and Sequences (CCDS)}
 }
