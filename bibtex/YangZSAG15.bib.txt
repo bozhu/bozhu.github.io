@@ -1,0 +1,10 @@
+@misc{YangZSAG15,
+  author    = {Gangqiang Yang and
+               Bo Zhu and
+               Valentin Suder and
+               Mark D. Aagaard and
+               Guang Gong},
+  title     = {The {Simeck} Family of Lightweight Block Ciphers},
+  year      = {2015},
+  note      = {To appear in the proceeding of the Workshop on Cryptographic Hardware and Embedded Systems (CHES) 2015}
+}
