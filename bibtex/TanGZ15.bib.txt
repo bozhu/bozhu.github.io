@@ -1,4 +1,3 @@
-
 @article{TanGZ15,
     author = {Yin Tan and
               Guang Gong and
