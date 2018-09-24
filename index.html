@@ -57,7 +57,7 @@
               <p class="text-justify">Before that, I received my PhD from the University of Waterloo in January 2015. My research interests include analysis and design of cryptographic algorithms and protocols.</p>
 
               <p>
-                Find me on: <a href="https://twitter.com/zhuzhuor"><i class="fa fa-twitter"></i> Twitter</a>, <a href="https://github.com/bozhu"><i class="fa fa-github"></i> GitHub</a>, <a href="https://www.linkedin.com/in/b8zhu"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+                Find me on: <a href="https://www.linkedin.com/in/b8zhu"><i class="fa fa-linkedin-square"></i> LinkedIn</a>, <a href="https://github.com/bozhu"><i class="fa fa-github"></i> GitHub</a>
               </p>
             </div>
 
@@ -254,6 +254,10 @@ Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP 2010) Sy
         </div>
 
         <script>
+            if (location.protocol !== "https:") {
+                location.protocol = "https:";
+            }
+
             function display_last_update_time(resp) {
                 var last_update_time = resp.data.updated_at;
                 document.getElementById('last_update_time').innerHTML = last_update_time.substring(0, 10);
