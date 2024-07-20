@@ -1,7 +1,0 @@
-@misc{cryptoeprint:2010:644,
-    author = {Bo Zhu and Wenye Yu and Tao Wang},
-    title = {A Practical Platform for Cube-Attack-like Cryptanalyses},
-    howpublished = {Cryptology ePrint Archive, Report 2010/644},
-    year = {2010},
-    note = {\url{http://eprint.iacr.org/}},
-}

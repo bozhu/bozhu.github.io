@@ -1,7 +1,0 @@
-@misc{ZhuGLC12,
-    author = {Bo Zhu and Guang Gong and Xuejia Lai and Kefei Chen},
-    title = {Another View on Cube Attack, Cube Tester, {AIDA} and Higher Order Differential Cryptanalysis},
-    howpublished = {CACR Technical Report 2012-01},
-    year = {2012},
-    note = {\url{http://cacr.uwaterloo.ca/techreports/2012/cacr2012-01.pdf}},
-}
